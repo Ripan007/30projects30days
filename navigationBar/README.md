@@ -3,7 +3,7 @@
 ## Teck stack:
 
 - HTML
-- CSS (float,clear-fix,position...)
+- CSS (float,clear-fix,position,transition...)
 - SEMANTIC TAG
 
 ### preview:
