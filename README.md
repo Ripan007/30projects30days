@@ -3,3 +3,4 @@
 This is the main repository for all of the projects in the course
 | # | project | Live Demo |
 | ----------- | ----------- | ---------- |
+| 1 | AwesomeNavigationBar | https://super-nougat-941bfe.netlify.app/ |
