@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247__480.jpg) no-repeat center center/cover;
+}
+
+.container{
+    width:300px;
+    height:300px;
+    background: transparent;
+    box-shadow: 0 0 10px;
+    border-radius:50%;
+}
+
+#timer{
+    width:100%;
+    text-align: center;
+    font-size: 50px;
+    margin:0px auto;
+    padding-top: 90px;
+    color:white;
+}
+
+.buttons{
+    text-align: center;
+
+}
+
+button{
+    margin:40px 10px;
+    border:none;
+    border-radius: 10%;
+    box-shadow: 0 0 10px;
+
+}
+
+button i{
+    font-size: 2em;
+    padding: 0.6em;
+    color:#fff;
+    width:60px;
+    height: 60px;
+   border-radius: 10%;
+   
+
+}
+
+#play{
+    background-color:rgba(0, 128, 0, 0.769);
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+background-color:rgba(255, 47, 0, 0.79);
+}
+
+
+
