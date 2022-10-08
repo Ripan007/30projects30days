@@ -7,4 +7,6 @@ This is the main repository for all of the projects
 | 2 | Accordian| https://shiny-llama-f6c4f5.netlify.app/|
 | 3 | stopWatch| https://stalwart-snickerdoodle-6dbf2b.netlify.app/|
 | 4 | pageSwitcher| https://radiant-dodol-dd8530.netlify.app/|
+| 5 |shoppingCart| https://grand-crumble-0c7d1f.netlify.app/|
+
 
