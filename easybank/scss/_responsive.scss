@@ -1,0 +1,169 @@
+@media screen and (max-width: 765px) {
+    header {
+        padding: 30px 40px;
+    }
+
+    .navigation {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: $White;
+        width: 80%;
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+        // opacity: 0;
+        // transition: all 0.5s ease-in-out;
+    }
+
+    header .navigation li {
+        margin: 20px 0;
+    }
+
+    header .navigation li a {
+        color: $DarkBlue;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .navigation li a {
+        margin: 0;
+    }
+
+    .navigation li a::after {
+        bottom: -20px;
+    }
+
+    header .request_inite_btn {
+        display: none;
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+    .dropdown-toggle {
+        display: block;
+    }
+
+    .details {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        background: hsl(200, 16%, 96%);
+    }
+
+    .brief_details {
+        width: 100%;
+        transform: translate(0);
+        padding: 0 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .brief_details h1 {
+        width: 95%;
+    }
+
+    .brief_details span {
+        font-size: 20px;
+    }
+
+    .mockup {
+        background-size: 100%;
+        background-position-x: 120px;
+        background-position-y: 30px;
+    }
+
+    .mockup-img {
+        width: 100%;
+        transform: translate(0, -90px);
+    }
+
+    .reason {
+        padding: 40px;
+        width: 100vw;
+    }
+
+    .reason .why_list {
+        flex-direction: column;
+    }
+
+    .latest_articles {
+        flex-direction: column;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+
+    .articles .article_card {
+        width: 100%;
+    }
+
+    .article .thumbnail {
+        height: 300px;
+    }
+
+    .card_body {
+        padding: 10px 20px 40px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .ft-one {
+        flex-direction: column;
+    }
+
+    .ft-two {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ft-two h4 {
+        font-size: 20px;
+    }
+
+    .ft-nav-2 {
+        margin-top: -20px;
+    }
+
+    .ft-nav-1,
+    .ft-nav-2 {
+        text-align: center;
+    }
+
+    .ft-nav-1 li,
+    .ft-nav-2 li {
+        margin-top: -20px;
+    }
+}

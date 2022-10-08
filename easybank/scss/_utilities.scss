@@ -1,0 +1,69 @@
+// contain unique component //
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: $font-stack;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+span,
+p {
+    color: $GrayishBlue;
+}
+
+header {
+    background-color: $White;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+
+}
+
+.details {
+    background-color: $VeryLightGray;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.request_inite_btn {
+    display: grid;
+    border: none;
+    outline: none;
+    all: unset;
+    width: 7em;
+    background: linear-gradient(to right, hsl(136, 65%, 35%), hsl(192, 70%, 51%));
+    color: $White;
+    margin: 20px 0;
+    padding: 10px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.reason {
+    background-color: $LightGrayishBlue;
+    padding: 100px 50px;
+}
+
+.latest-articles {
+    padding: 100px 50px;
+    background: var(--VeryLightGray);
+}
