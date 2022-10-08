@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background: url(https://images.freeimages.com/variants/NmKFGzYB4kUVBW5DhxuALgPW/5a0bd68e593adb18739fe6fe526aa40368c6d1e5924c85e47ba06f7a665f1000)  no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container{
+ width: 350px;
+ background: #fff;   
+ padding: 20px 10px;
+ border-radius: 5px;
+ box-shadow: 0 0 3px;
+ display:flex;
+margin-bottom: 20px;
+}
+
+input{
+    flex:5;
+    margin-right: 10px;
+    border-radius: 2px;
+    border:none;
+    box-shadow: 0 0 2px;
+    font-size: 1.2rem ;
+    padding: 5px;
+}
+
+input:focus{
+outline: none;
+border: 1px solid red ;
+}
+
+
+
+#add-task{
+    flex:1;
+    border-radius: 2px;
+    transition:.3s;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 2px;
+border:none;
+}
+
+#add-task:hover{
+    background-color:rgb(0, 128, 60) ;
+    color:#fff;
+
+}
+
+/* styling for the task which get added to the to-do-list */
+
+
+.task{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 2px;
+    border:none;
+    border-radius: 2px;
+    padding: 5px;
+display:flex;
+    justify-content: space-between;
+margin-bottom: 5px;
+}
+
+.task li{
+    list-style: none;
+    flex:4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.task button{
+    transition:.3s;
+    flex: 1;
+    box-shadow: 0 0 2px;
+    border:none;
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.task .checkTask{
+
+    color: orange;
+    margin-right: 5px;
+    box-shadow: 0 0 2px;
+    border:none;
+    border-radius: 2px;   
+    font-size: 1.5rem;
+}
+.task .checkTask:hover{
+
+    background-color: orange;
+    color: #fff;
+   
+}
+
+.task .deleteTask{
+ 
+    color: red;
+    font-size: 1.3;
+    box-shadow: 0 0 2px;
+    border:none;
+    border-radius: 2px;  
+}
+
+.task .deleteTask:hover{
+
+    background-color: red;
+    color: #fff;
+}

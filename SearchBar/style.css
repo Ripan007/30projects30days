@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:.25rem;
+    
+
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    font-size: 1rem;
+    padding:0.35em;
+}
+input:focus{
+    color: red;
+}
+
+.user-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:.25rem;
+    margin-top: 1rem;
+
+}
+.card{
+    border:1px solid black;
+    background-color:white;
+    padding:.25rem;
+}
+
+.card > .header {
+    margin-bottom: .25rem;
+}
+
+.card > .body{
+    font-size: .8rem;
+    color:#777;
+}
+
+.hide{
+    display: none;
+}
